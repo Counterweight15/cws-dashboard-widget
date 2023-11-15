@@ -21,7 +21,7 @@ const widgetHTML = `
 
 // Insert the widget's HTML into the designated container
 document.addEventListener('DOMContentLoaded', function () {
-    const widgetContainer = document.getElementById('custom-dashboard-widget');
+    const widgetContainer = document.getElementById('cws-dashboard-widget');
     if (widgetContainer) {
         widgetContainer.innerHTML = widgetHTML;
     }
